@@ -27,6 +27,9 @@
         <item>restart_bootloader</item>
     </string-array>
 
+    <!-- Whether device has a notch -->
+    <bool name="config_haveNotch">true</bool>
+
     <!-- Display mode remapping table.
         If the mode names returned by the backend do not match
         the predefined and translated strings in the Settings
