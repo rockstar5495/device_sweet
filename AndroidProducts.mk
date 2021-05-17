@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/carbon_sweet.mk
+    $(LOCAL_DIR)/pixys_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    carbon_sweet-user \
-    carbon_sweet-userdebug \
-    carbon_sweet-eng
+    pixys_sweet-user \
+    pixys_sweet-userdebug \
+    pixys_sweet-eng

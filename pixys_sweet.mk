@@ -4,17 +4,18 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit Carbon GSM telephony parts
-$(call inherit-product, vendor/carbon/config/gsm.mk)
 
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
 # Inherit common.
-$(call inherit-product, vendor/carbon/config/common.mk)
+$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+
+# Pixys stuuf
+TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := carbon_sweet
+PRODUCT_NAME := pixys_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
