@@ -65,6 +65,11 @@ TARGET_KERNEL_CONFIG := sweet_user_defconfig
 TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_KERNEL_SOURCE := kernel/xiaomi/sweet
 
+# HALS
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/$(SM8150)/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/$(SM8150)/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/$(SM8150)/media
+
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 134217728
 BOARD_CACHEIMAGE_PARTITION_SIZE := 402653184
