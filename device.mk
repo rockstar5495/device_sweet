@@ -141,6 +141,8 @@ TARGET_USES_MKE2FS := true
 # Properties
 -include $(LOCAL_PATH)/product_prop.mk
 -include $(LOCAL_PATH)/system_prop.mk
+-include $(LOCAL_PATH)/system.prop
+
 PRODUCT_COMPATIBLE_PROPERTY_OVERRIDE := true
 
 # Telephony
