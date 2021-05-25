@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/pixys_sweet.mk
+    $(LOCAL_DIR)/xtended_sweet.mk
 
 COMMON_LUNCH_CHOICES := \
-    pixys_sweet-user \
-    pixys_sweet-userdebug \
-    pixys_sweet-eng
+    xtended_sweet-user \
+    xtended_sweet-userdebug \
+    xtended_sweet-eng

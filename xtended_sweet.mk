@@ -8,14 +8,19 @@
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
-# Inherit common.
-$(call inherit-product, vendor/pixys/config/common_full_phone.mk)
+# Inherit common Xtended Stuff
+$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
-# Pixys stuuf
+# Xtended Stuff
+XTENDED_BUILD_TYPE := UNOFFICIAL
+XTENDED_BUILD_MAINTAINER := Pratyaksh.Bharadwaj
+TARGET_GAPPS_ARCH := arm64
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SCREEN_DENSITY := 440
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := pixys_sweet
+PRODUCT_NAME := xtended_sweet
 PRODUCT_DEVICE := sweet
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 10 Pro
