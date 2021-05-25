@@ -44,25 +44,8 @@ TARGET_SCREEN_WIDTH := 1080
 
 # Camera
 PRODUCT_PACKAGES += \
-<<<<<<< HEAD
-    Snap
-=======
-    android.hardware.camera.common@1.0 \
-    android.hardware.camera.device@3.3:64 \
-    android.hardware.camera.device@3.4:64 \
-    android.hardware.camera.device@3.5:64 \
-    android.hardware.camera.provider@2.4 \
-    android.hardware.camera.provider@2.4-impl:32 \
-    android.hardware.camera.provider@2.4-service \
-    android.hardware.camera.provider@2.5:64 \
-    android.hardware.camera.provider@2.6:64 \
-    vendor.qti.hardware.camera.device@1.0 \
-    camera.msm8953 \
-    libcamshim \
-    libmm-qcamera \
-    libui_shim \
+    Snap \
     libmm-qcamera
->>>>>>> 8765ad0... mido: Add GCam Go
 
 # Device Settings
 PRODUCT_PACKAGES += \
