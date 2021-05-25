@@ -4,6 +4,8 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+YOUR_HW_PLATFORM := SM6150
+
 BOARD_VENDOR := xiaomi
 DEVICE_PATH := device/xiaomi/sweet
 
