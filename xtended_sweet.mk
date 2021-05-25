@@ -4,7 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-
 # Inherit from sweet device
 $(call inherit-product, device/xiaomi/sweet/device.mk)
 
@@ -12,7 +11,7 @@ $(call inherit-product, device/xiaomi/sweet/device.mk)
 $(call inherit-product, vendor/xtended/config/common_full_phone.mk)
 
 # Xtended Stuff
-XTENDED_BUILD_TYPE := UNOFFICIAL
+XTENDED_BUILD_TYPE := OFFICIAL
 XTENDED_BUILD_MAINTAINER := Pratyaksh.Bharadwaj
 TARGET_GAPPS_ARCH := arm64
 TARGET_FACE_UNLOCK_SUPPORTED := true
