@@ -177,8 +177,8 @@ void vendor_load_properties() {
         }
 
     // SafetyNet workaround
-    fingerprint = "Xiaomi/dipper/dipper:8.1.0/OPM1.171019.011/V9.5.5.0.OEAMIFA:user/release-keys";
-    description = "dipper-user 8.1.0 OPM1.171019.011 V9.5.5.0.OEAMIFA release-keys";
+    fingerprint = "google/redfin/redfin:11/RQ2A.210505.003/7255357:user/release-keys";
+    description = "redfin-user 11 RQ2A.210505.003 7255357 release-keys";
     workaround_snet_properties();
 
     set_ro_build_prop("fingerprint", fingerprint);
